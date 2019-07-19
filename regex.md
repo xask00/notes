@@ -2,8 +2,13 @@
 When you write a regex you are actually defining the grammer of a language.
 The syntax defines rules for a lexer or parser.
 
+grep -oP 
+lookbehind (?<=Path=)
+
 
 ## References
+https://www.regular-expressions.info/lookaround.html
+
 Parsing technology
 https://dzone.com/articles/a-guide-to-parsing-algorithms-and-technology-part
 

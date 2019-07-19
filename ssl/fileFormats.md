@@ -22,3 +22,8 @@ open standard by java, does not contain private key
 
 # Java
 ## Truststore vs keystore
+Truststore : certificates which the client would use to trust server certifiates
+
+Keystore: private key + certificate which server would use
+
+So 
