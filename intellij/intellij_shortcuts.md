@@ -9,16 +9,18 @@
 |c-a-S|settings|
 |c-s-v|paste history!|
 |c-G|navigate to line number|
-|||
+
 
 lines
-|||
-|-|-|
+
+|shortcut|description|
+|--|--|
 |s-fn->\|s-fn-<|select line|
 
 java
+
 |shortcut|description|
-|-|-|
+|--|--|
 |c-q|get documentation for item at cursor|
 |shift-f1|external website docs for item at cursor|
 |c-j|insert live template|
