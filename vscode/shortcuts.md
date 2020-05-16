@@ -14,3 +14,10 @@ shortcut keys
 
 Emmet
 type this `ul>li.item$*5` and press tab or edit -> emmet expand to expand it !
+
+## Splitting editors
+|||
+|--|--|
+|ctl+\|Split Right|
+|alt+shift+o|Layout vertical -> horizontal
+|ctrl+k ctrl+/|Split down|
