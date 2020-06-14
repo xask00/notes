@@ -17,3 +17,29 @@ What happens when ?
 3. ./gradle <specific task>
 
 What common settings / configs can be stored in top level project
+
+## Basics 
+
+```mermaid
+graph LR
+SubProjects(Sub Projects)
+Build -->|one or more| Project
+Project -->|one or more| Tasks
+Project -->|one or more| SubProjects
+```
+Build  1-M Project -- 1-M -- Tasks 
+       Root Project --> sub-projects
+----
+
+## Delegates
+
+```groovy
+def printClosure = {
+    printText "I come from a closure"
+}
+// delegate is called first
+printClosure.delegate = new WriterOne()
+printClosure() // will print "Printed in One: I come from a closure
+printClosure.delegate = new WriterTwo()
+printClosure() // will print "Printed in Two: I come from a closure
+```
